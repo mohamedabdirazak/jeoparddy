@@ -139,6 +139,6 @@ function doubleOddNumbers(arr) {
         return val % 2 !== 0;
       })
       .map(function(val) {
-        return val * 2;
+        return val *  2;
       });
     }
