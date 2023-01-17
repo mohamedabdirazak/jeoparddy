@@ -57,7 +57,7 @@ function hasNoDuplicates(arr){
 //   hasCertainValue(arr,'title','Instructor') // true
 //   hasCertainValue(arr,'first','Elie') // false
 
-function  hasCertainValue(arr, key   value ){
+function  hasCertainValue(arr, key,   value ){
     return arr.every(function(val){
         return val[key] === searchValue;
       })
